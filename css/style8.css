@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: rgb(85, 50, 124);
+  background: linear-gradient(
+    180deg,
+    rgba(85, 50, 124, 1) 0%,
+    rgba(198, 104, 117, 1) 89%,
+    rgba(178, 87, 118, 1) 100%
+  );
+  height: 100vh;
+}
+
+#container {
+  width: 400px;
+  height: 290px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 120px;
+  text-align: center;
+}
+
+#container img {
+  width: 120px;
+  height: 120px;
+  margin-top: -60px;
+  margin-bottom: 29px;
+}
+
+input{
+    height: 40px;
+    width:80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #ffff;
+    padding-left: 40px;
+    border:none;
+   outline: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.email{
+    background-image: url(../images/icone-usuario.png);
+}
+
+input.senha{
+    background-image: url(../images/icone-cadeado.png);
+}
+
+input.submit{
+    columns: #ffff;
+    background-color: #e79212;
+    border: 2px solid #db7d00;
+    padding: 5px 20px;
+    height:45px;
+    width: 90%;
+    background: linear-gradient(to bottom, #faa600, #f68a00);
+}
