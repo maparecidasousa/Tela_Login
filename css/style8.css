@@ -33,33 +33,33 @@ body {
   margin-bottom: 29px;
 }
 
-input{
-    height: 40px;
-    width:80%;
-    font-size: 18px;
-    margin-bottom: 10px;
-    background-color: #ffff;
-    padding-left: 40px;
-    border:none;
-   outline: none;
-    background-repeat: no-repeat;
-    background-position: 10px;
+input {
+  height: 40px;
+  width: 300px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: #ffff;
+  padding-left: 40px;
+  border: none;
+  outline: none;
+  background-repeat: no-repeat;
+  background-position: 10px;
 }
 
-input.email{
-    background-image: url(../images/icone-usuario.png);
+input.email {
+  background-image: url(../images/icone-usuario.png);
 }
 
-input.senha{
-    background-image: url(../images/icone-cadeado.png);
+input.senha {
+  background-image: url(../images/icone-cadeado.png);
 }
 
-input.submit{
-    columns: #ffff;
-    background-color: #e79212;
-    border: 2px solid #db7d00;
-    padding: 5px 20px;
-    height:45px;
-    width: 90%;
-    background: linear-gradient(to bottom, #faa600, #f68a00);
+button {
+  background-color: #d75c0b;
+  border: none;
+  color: #fff;
+  padding: 5px 20px;
+  height: 45px;
+  width: 190px;
+  font-size: 21px;
 }
